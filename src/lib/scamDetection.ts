@@ -1,28 +1,84 @@
 export const SCAM_KEYWORDS = [
-  "lottery", "winner", "prize", "congratulations", "jackpot",
-  "free gift", "reward", "lucky draw", "bonus",
-  "account blocked", "kyc", "update immediately",
-  "urgent", "last warning", "final notice",
-  "processing fee", "pay now", "transaction blocked",
-  "investment", "double your money", "crypto",
-  "bitcoin", "usdt", "forex", "profit guaranteed",
-  "otp", "bank verification", "pan update"
+  // Lottery / Prize
+  "lottery", "winner", "prize", "jackpot", "lucky draw", "raffle",
+  "you have won", "claim your prize", "congratulations", "free reward",
+  "cash prize", "gift voucher", "amazon gift", "flipkart gift",
+  "google reward", "iphone giveaway", "car giveaway",
+
+  // Banking / KYC
+  "account blocked", "account suspended", "account frozen",
+  "kyc update", "update kyc", "verify kyc", "pan update",
+  "aadhaar update", "bank verification", "otp verification",
+  "atm blocked", "debit card blocked", "credit card blocked",
+  "suspicious activity", "unusual login", "security alert",
+
+  // Urgency & Threat
+  "urgent", "immediately", "within 24 hours", "last warning",
+  "final notice", "legal action", "court notice", "arrest warrant",
+  "fine will be charged", "account will be closed",
+
+  // Money Requests
+  "processing fee", "activation fee", "registration fee",
+  "pay now", "send money", "upi request", "google pay", "phonepe",
+  "paytm", "bank transfer", "wire transfer", "transaction pending",
+
+  // Investment / Crypto
+  "investment", "guaranteed profit", "double your money",
+  "high return", "no risk", "crypto", "bitcoin", "ethereum",
+  "usdt", "forex", "nft", "trading bot", "stock tips",
+  "profit in 24 hours", "earn daily", "passive income",
+
+  // Job Scams
+  "work from home", "part time job", "earn per day",
+  "data entry job", "online typing job", "registration charge",
+  "training fee", "placement fee",
+
+  // Romance & Social Engineering
+  "i love you", "need help urgently", "send money please",
+  "stuck abroad", "medical emergency", "hospital bill",
+
+  // Government Impersonation
+  "income tax department", "customs office", "police department",
+  "cbi", "interpol", "court order", "summon notice",
+  "electricity bill", "gas connection", "water bill",
+
+  // Tech Support Scams
+  "microsoft support", "windows infected", "virus detected",
+  "call immediately", "remote access", "teamviewer",
+  "anydesk", "refund department"
 ];
 
 export const PHISHING_WORDS = [
-  "verify your account",
-  "click the link below",
-  "login to continue",
-  "reset your password",
-  "confirm your identity"
+  "verify your account", "login to continue", "reset your password",
+  "confirm your identity", "click the link below",
+  "update your details", "secure your account",
+  "unusual activity detected", "session expired",
+  "re-activate your account", "validate your information",
+  "confirm billing details", "verify payment",
+  "account limitation", "suspicious login attempt",
+  "unlock your account", "security check required",
+  "confirm email address", "reconfirm your password",
+  "two step verification required", "your mailbox is full",
+  "storage limit exceeded", "document shared with you",
+  "view secure document", "download invoice",
+  "track your parcel", "delivery failed",
+  "customs clearance required"
 ];
 
 export const SUSPICIOUS_DOMAINS = [
-  ".xyz", ".top", ".info", ".store", ".ru"
+  ".xyz", ".top", ".info", ".site", ".store", ".online",
+  ".live", ".icu", ".monster", ".buzz", ".club", ".loan",
+  ".work", ".support", ".click", ".link", ".tk", ".ml",
+  ".ga", ".cf", ".gq", ".ru", ".cn", ".su", ".cc", ".pw",
+  ".vip", ".win", ".bid", ".faith", ".stream", ".download",
+  ".racing", ".party", ".review", ".accountant", ".trade"
 ];
 
 export const URL_SHORTENERS = [
-  "bit.ly", "tinyurl.com", "t.ly", "cutt.ly"
+  "bit.ly", "tinyurl.com", "t.ly", "cutt.ly", "rebrand.ly",
+  "shorturl.at", "is.gd", "soo.gd", "ow.ly", "buff.ly",
+  "shorte.st", "adf.ly", "linktr.ee", "rb.gy", "tiny.cc",
+  "lnk.bio", "cli.re", "s.id", "v.gd", "t2m.io"
 ];
 
 export interface DetectionResult {
